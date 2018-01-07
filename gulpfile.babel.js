@@ -68,6 +68,7 @@ gulp.task('scripts', ['polyfills', 'babel'], () => {
         .pipe(browserSync.reload({stream: true}));
 });
 
+
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], () => {
     gulp.watch('./app/**/*.html', browserSync.reload);
     gulp.watch('./app/scss/**/*.scss', ['sass']);
