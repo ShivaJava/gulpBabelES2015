@@ -38,6 +38,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Untracked files:
+node_modules/
+
 # Typescript v1 declaration files
 typings/
 
